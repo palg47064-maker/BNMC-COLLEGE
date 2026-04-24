@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+    <body class="bg-light d-flex justify-content-center align-items-center vh-100">
+
+  <div class="card shadow p-4 rounded-4" style="width: 460px; height: 500px;">
+
+    <h4 class="text-center fw-semibold">admin panel</h4>
+
+    <p class="text-center mt-2 mb-0">
+      Welcome to Admin Panel! 👋
+    </p>
+    <p class="text-center text-muted small">
+      Please sign-in to your account !
+    </p>
+
+    <!-- Alert -->
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+      Your session has been expired
+      <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+
+    <!-- Form -->
+    <form>
+
+      <div class="mb-3">
+        <label class="form-label">EMAIL</label>
+        <input type="email" class="form-control" placeholder="Enter your email">
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">PASSWORD</label>
+        <input type="password" class="form-control" placeholder="********">
+      </div>
+
+      <button class="btn btn-primary w-100">Sign in</button>
+
+    </form>
+
+    <a href="index.html" class="text-center d-block mt-3 small text-decoration-none">
+      ← back to home
+    </a>
+
+  </div>
+
+</body>
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
